@@ -17,15 +17,39 @@
     gap:150px;
 }
 
+.banner-text{
+
+    background-color: rgb(228, 10, 210);
+    border:dashed orange;
+    /*display:flex;*/
+    width:300px;
+    height:400px;
+    flex-direction: column;
+}
+
+.pic-div{
+    background-color:green;
+    border:dashed black;
+    
+    width:300px;
+    height:400px;
+
+}
+
+
+
 
 .header-item{
     border:dotted yellow;
     width:75px;
 }
 
+button {
+    background-color: blue;
+    color: white;
+}
 
 *{
-
 
     margin-left:25px;
     margin-right:25px;
