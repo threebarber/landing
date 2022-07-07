@@ -1,0 +1,13 @@
+.header-section{
+    background-color: blueviolet;
+    border:dashed black;
+    display:flex;
+    width:auto;
+    height:200px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    border:green dotted;
+}
+
