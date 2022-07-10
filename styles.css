@@ -91,6 +91,7 @@
     flex:1;
     font-size: 30px;
     text-align: center;
+    box-shadow: none;
 }
 
 .quote-section p{
