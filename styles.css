@@ -1,6 +1,7 @@
     .header-section {
    background-color: #1f2937;
-    border:dashed black;
+   color:white;
+    /* /*border:dashed black; */
     display:flex;
     width:auto;
     height:100px;
@@ -10,7 +11,7 @@
 
 .banner-section{
     background-color: #1f2937;
-    border:dashed rgb(223, 14, 14);
+   /* border:dashed rgb(223, 14, 14);*/
     display:flex;
     width:auto;
     height:400px;
@@ -20,24 +21,26 @@
 
 .banner-text{
 
-    background-color: rgb(228, 10, 210);
-    border:dashed orange;
+    /*background-color: rgb(228, 10, 210);
+    border:dashed orange; */
     /*display:flex;*/
    /* width:400px;
     height:400px;*/
     text-align: left;
-    flex-direction: column;
+    margin: 30px;
+    color:white;
 }
 
 
 .boxes-section{
-    background-color: orange;
-   /* border:dashed blue; */
+    /*background-color: orange;
+    border:dashed blue; */
     display:block;
     width:auto;
     height:400px;
     justify-content: space-around;
     text-align: center;
+    color:black;
    /* align-items:center;*/
 }
 
@@ -52,6 +55,44 @@
 }
 
 
+
+.sign-up-section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: blue;
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-left:  200px;
+    margin-right:  200px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:80px;
+    padding-left:80px;
+}
+
+.footer-section{
+    background-color: #1f2937;
+    color:white;
+    text-align: center;
+    margin-bottom: 0px;
+    padding:20px;
+}
+
+
+.sign-up-text{
+    flex:1;
+    text-align: left;
+    color: white;
+}
+
+
+.sign-up-button{
+    flex:1;
+    font-size: 30px;
+    text-align: center;
+}
+
 .quote-section p{
     font-size: 35px;
     font-style: italic;
@@ -64,8 +105,8 @@
 }
 
 .boxes{
-    background-color: orange;
-    border:dashed blue;
+    /*background-color: orange;
+    border:dashed blue;*/
     display:flex;
     width:auto;
     height:400px;
@@ -85,8 +126,8 @@
 
 
 .pic-div{
-    background-color:green;
-    border:dashed black;
+    /*background-color:green;
+    border:dashed black;*/
     
     width:500px;
     height:350px;
@@ -113,7 +154,7 @@
 
 
 .header-items{
-    border:dotted yellow;
+   /* border:dotted yellow;*/
     width:75px;
     margin-left:auto;
     display: flex;
@@ -139,6 +180,7 @@ button {
 
 *{
     font-family: 'Roboto', sans-serif;
+    /*color: white;*/
   /*  margin-left:25px;
     margin-right:25px;*/
 }
